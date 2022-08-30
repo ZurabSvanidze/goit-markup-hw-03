@@ -221,7 +221,8 @@ ul {
   gap: 30px;
   justify-content: center;
   margin: 0px;
-  padding: 0 15px 94px;}
+  padding: 0 15px 94px;
+}
 .name {
   font-family: 'Roboto';
   font-weight: 500;
