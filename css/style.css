@@ -1,0 +1,312 @@
+:root {
+  --backgroundColorLihtgrey: #e5e5e5;
+  --backgroundColorDarkgrey: #2f303a;
+  --fontColorBlack: #212121;
+  --fontColorGrey: #757575;
+  --selectionColor: #2196f3;
+  --colorWhite: #ffffff;
+  --colorGhostWhite: #f5f4fa;
+}
+body {
+  background-color: var(--backgroundColorLihtgrey);
+  color: var(--fontColorBlack);
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+img {
+  display: block;
+}
+ul {
+  list-style: none;
+}
+.section {
+  padding: 94px 0px;
+}
+.header-main {
+  display: flex;
+  background-color: var(--colorWhite);
+}
+.web-logo {
+  padding-top: 24px;
+  margin-left: 215px;
+}
+.studio-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--selectionColor);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.studio-logo-color-head {
+  color: #000000;
+}
+.studio-logo-color-foot {
+  color: #ffffff;
+}
+.navigation {
+  font-family: 'Roboto';
+  color: var(--fontColorBlack);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  display: flex;
+  list-style: none;
+  gap: 46px;
+  margin: 0;
+  padding: 32px 0 31px 93px;
+}
+
+.agency {
+  color: #212121;
+  text-decoration: none;
+}
+.agency:focus {
+  color: var(--selectionColor);
+}
+.agency:hover {
+  color: var(--selectionColor);
+}
+.portfolio {
+  color: #212121;
+  text-decoration: none;
+}
+.portfolio:focus {
+  color: var(--selectionColor);
+}
+.portfolio:hover {
+  color: var(--selectionColor);
+}
+.contacts {
+  color: #212121;
+  text-decoration: none;
+}
+.contacts:focus {
+  color: var(--selectionColor);
+}
+.contacts:hover {
+  color: var(--selectionColor);
+}
+.email-head {
+  color: var(--fontColorGrey);
+  text-decoration: none;
+}
+.email-head:hover {
+  color: #2196f3;
+}
+.email-head:focus {
+  color: var(--selectionColor);
+}
+.calling-head {
+  color: var(--fontColorGrey);
+  text-decoration: none;
+}
+.calling-head:hover {
+  color: var(--selectionColor);
+}
+.calling-head:focus {
+  color: var(--selectionColor);
+}
+/* ================= Main========================== */
+.main-section {
+  background-color: var(--backgroundColorDarkgrey);
+  color: var(--colorWhite);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+}
+.main-head {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--colorWhite);
+}
+.make-order {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--colorWhite);
+  background: var(--selectionColor);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+}
+.make-order:hover {
+  background: var(--colorGhostWhite);
+  color: var(--fontColorBlack);
+  cursor: pointer;
+}
+.make-order:focus {
+  background: var(--colorGhostWhite);
+  color: var(--fontColorBlack);
+  cursor: pointer;
+}
+.description-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
+  margin: 0;
+  padding: 94px 15px;
+  background-color: var(--colorWhite);
+}
+.description {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--fontColorBlack);
+}
+.description-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--fontColorGrey);
+  letter-spacing: 0.03em;
+}
+.description-second {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--fontColorBlack);
+}
+.what-we-do-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin: 0;
+  padding: 0 15px 94px;
+}
+.our-team {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--fontColorBlack);
+}
+.name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--fontColorBlack);
+  letter-spacing: 0.03em;
+}
+.position {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--fontColorGrey);
+  letter-spacing: 0.03em;
+}
+
+/* ====================Footer======================================= */
+footer {
+  background-color: var(--backgroundColorDarkgrey);
+}
+.address {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--colorWhite);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.email-foot {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.email-foot:hover {
+  color: #2196f3;
+}
+.email-foot:focus {
+  color: var(--selectionColor);
+}
+.calling-foot {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+/* ====================Portfolio================= */
+.filter-button {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--fontColorBlack);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filter-button:focus {
+  color: var(--colorWhite);
+  background-color: var(--selectionColor);
+  cursor: pointer;
+}
+.filter-button:hover {
+  background: var(--selectionColor);
+  color: var(--colorWhite);
+  cursor: pointer;
+}
+.project-header {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--fontColorBlack);
+  letter-spacing: 0.06em;
+}
+.project-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--fontColorGrey);
+  letter-spacing: 0.03em;
+}
+.calling-foot:hover {
+  color: var(--selectionColor);
+}
+.calling-foot:focus {
+  color: var(--selectionColor);
+}
