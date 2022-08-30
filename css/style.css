@@ -215,6 +215,13 @@ ul {
   letter-spacing: 0.03em;
   color: var(--fontColorBlack);
 }
+.our-team-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0 15px 94px;}
 .name {
   font-family: 'Roboto';
   font-weight: 500;
