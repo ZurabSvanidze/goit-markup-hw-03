@@ -26,9 +26,18 @@ img {
 }
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0 auto;
 }
 .section {
   padding: 94px 0px;
+}
+figure {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 .header {
   background-color: var(--colorWhite);
@@ -39,7 +48,6 @@ ul {
 }
 .web-logo {
   padding-top: 24px;
-  margin-left: 215px;
 }
 .studio-logo {
   font-family: 'Raleway';
@@ -68,6 +76,19 @@ ul {
   gap: 46px;
   margin: 0;
   padding: 32px 0 31px 93px;
+}
+.navigation-contacts {
+  font-family: 'Roboto';
+  color: var(--fontColorBlack);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  gap: 50px;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 32px 27px 32px 371px;
 }
 
 .agency {
@@ -152,6 +173,7 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border-style: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   width: 200px;
@@ -168,6 +190,9 @@ ul {
   color: var(--fontColorBlack);
   cursor: pointer;
 }
+.second {
+  background-color: var(--colorWhite);
+}
 .description-list {
   display: flex;
   list-style: none;
@@ -175,7 +200,6 @@ ul {
   justify-content: center;
   margin: 0;
   padding: 94px 15px;
-  background-color: var(--colorWhite);
 }
 .description {
   font-family: 'Roboto';
@@ -201,6 +225,9 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--fontColorBlack);
+}
+.our-team-style {
+  background-color: var(--colorGhostWhite);
 }
 .what-we-do-list {
   display: flex;
@@ -239,6 +266,7 @@ ul {
   line-height: 1.18;
   color: var(--fontColorBlack);
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .position {
   font-family: 'Roboto';
@@ -246,11 +274,27 @@ ul {
   line-height: 1.18;
   color: var(--fontColorGrey);
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 /* ====================Footer======================================= */
 footer {
   background-color: var(--backgroundColorDarkgrey);
+}
+.footer-box {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding: 60px 0;
+}
+.bottom-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  gap: 9px;
 }
 .address {
   font-family: 'Roboto';
@@ -285,6 +329,14 @@ footer {
   text-decoration: none;
 }
 /* ====================Portfolio================= */
+.portfolio {
+  background-color: var(--colorWhite);
+}
+.filter {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
 .filter-button {
   font-family: 'Roboto';
   font-weight: 500;
@@ -293,6 +345,9 @@ footer {
   color: var(--fontColorBlack);
   text-align: center;
   letter-spacing: 0.03em;
+  border-style: none;
+  border-radius: 4px;
+  padding: 6px 22px;
 }
 .filter-button:focus {
   color: var(--colorWhite);
@@ -304,6 +359,18 @@ footer {
   color: var(--colorWhite);
   cursor: pointer;
 }
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+.project-picture {
+  flex-basis: calc((100% - 60px) / 3);
+}
 .project-header {
   font-family: 'Roboto';
   font-weight: 700;
@@ -311,6 +378,7 @@ footer {
   line-height: 2;
   color: var(--fontColorBlack);
   letter-spacing: 0.06em;
+  padding: 20px 24px 4px 24px;
 }
 .project-text {
   font-family: 'Roboto';
@@ -320,7 +388,14 @@ footer {
   line-height: 1.87;
   color: var(--fontColorGrey);
   letter-spacing: 0.03em;
+  padding: 4px 24px 20px 24px;
 }
+.image-border {
+  border-bottom: solid #eeeeee;
+  border-left: solid #eeeeee;
+  border-right: solid #eeeeee;
+}
+
 .calling-foot:hover {
   color: var(--selectionColor);
 }
