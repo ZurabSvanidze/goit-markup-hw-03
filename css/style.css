@@ -369,7 +369,7 @@ footer {
   margin: 0;
 }
 .project-picture {
-  flex-basis: calc((100% - 60px) / 3);
+  flex-basis: calc((100% - 90px) / 3);
 }
 .project-header {
   font-family: 'Roboto';
@@ -378,7 +378,7 @@ footer {
   line-height: 2;
   color: var(--fontColorBlack);
   letter-spacing: 0.06em;
-  padding: 20px 24px 4px 24px;
+  padding: 20px 24px 0;
 }
 .project-text {
   font-family: 'Roboto';
@@ -391,9 +391,9 @@ footer {
   padding: 4px 24px 20px 24px;
 }
 .image-border {
-  border-bottom: solid #eeeeee;
-  border-left: solid #eeeeee;
-  border-right: solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .calling-foot:hover {
@@ -402,4 +402,3 @@ footer {
 .calling-foot:focus {
   color: var(--selectionColor);
 }
- 
