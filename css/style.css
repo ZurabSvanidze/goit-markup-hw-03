@@ -20,6 +20,8 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 img {
   display: block;
@@ -28,6 +30,10 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0 auto;
+}
+p {
+  margin: 0;
+  padding: 0;
 }
 .section {
   padding: 94px 0px;
@@ -87,8 +93,8 @@ figure {
   gap: 50px;
   display: flex;
   list-style: none;
-  margin: 0;
-  padding: 32px 27px 32px 371px;
+  margin-left: auto;
+  padding: 32px 0 32px 0;
 }
 
 .agency {
@@ -198,8 +204,8 @@ figure {
   list-style: none;
   gap: 30px;
   justify-content: center;
-  margin: 0;
-  padding: 94px 15px;
+  /* margin: 0; */
+  /* padding: 94px 15px; */
 }
 .description {
   font-family: 'Roboto';
@@ -233,8 +239,8 @@ figure {
   display: flex;
   gap: 30px;
   justify-content: center;
-  margin: 0;
-  padding: 0 15px 94px;
+  /* margin: 0; */
+  /* padding: 0 15px 94px; */
 }
 .our-team {
   font-family: 'Roboto';
@@ -250,8 +256,6 @@ figure {
   list-style: none;
   gap: 30px;
   justify-content: center;
-  margin: 0px;
-  padding: 0 15px 94px;
 }
 .team-card {
   background: #ffffff;
@@ -267,6 +271,7 @@ figure {
   color: var(--fontColorBlack);
   letter-spacing: 0.03em;
   text-align: center;
+  margin: 30px 0 10px 0;
 }
 .position {
   font-family: 'Roboto';
@@ -275,6 +280,7 @@ figure {
   color: var(--fontColorGrey);
   letter-spacing: 0.03em;
   text-align: center;
+  margin: 0 0 30px 0;
 }
 
 /* ====================Footer======================================= */
@@ -358,8 +364,13 @@ footer {
   background: var(--selectionColor);
   color: var(--colorWhite);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
+.portfolio-project {
+  padding-top: 0;
+  background-color: var(--colorWhite);
+}
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -369,7 +380,7 @@ footer {
   margin: 0;
 }
 .project-picture {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 .project-header {
   font-family: 'Roboto';
