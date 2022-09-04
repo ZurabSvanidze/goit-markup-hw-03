@@ -199,13 +199,15 @@ figure {
 .second {
   background-color: var(--colorWhite);
 }
+.our-work {
+  background-color: var(--colorWhite);
+  padding-top: 0;
+}
 .description-list {
   display: flex;
   list-style: none;
   gap: 30px;
   justify-content: center;
-  /* margin: 0; */
-  /* padding: 94px 15px; */
 }
 .description {
   font-family: 'Roboto';
@@ -231,6 +233,7 @@ figure {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--fontColorBlack);
+  margin-top: 0;
 }
 .our-team-style {
   background-color: var(--colorGhostWhite);
@@ -239,8 +242,6 @@ figure {
   display: flex;
   gap: 30px;
   justify-content: center;
-  /* margin: 0; */
-  /* padding: 0 15px 94px; */
 }
 .our-team {
   font-family: 'Roboto';
@@ -335,14 +336,16 @@ footer {
   text-decoration: none;
 }
 /* ====================Portfolio================= */
-.portfolio {
+.button-style {
   background-color: var(--colorWhite);
+  padding-bottom: 50px;
 }
 .filter {
   display: flex;
   justify-content: center;
   gap: 8px;
 }
+
 .filter-button {
   font-family: 'Roboto';
   font-weight: 500;
